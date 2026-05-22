@@ -6,7 +6,7 @@ An AI-powered **Signature Verification System** built using **Siamese Neural Net
 
 ## 🚀 Project Overview
 
-Traditional signature verification methods rely heavily on manual inspection, making them time-consuming and prone to human error. This project leverages **Deep Learning** and **Computer Vision** techniques to build an intelligent system capable of distinguishing between **genuine** and **forged** signatures.
+Traditional signature verification methods rely heavily on manual inspection, making them time-consuming and prone to human error. This project leverages **Deep Learning** techniques to build an intelligent system capable of distinguishing between **genuine** and **forged** signatures.
 
 The application compares two signature images, extracts meaningful features using a **Siamese Neural Network**, and computes a **similarity score** using **Euclidean Distance** to determine authenticity.
 
@@ -102,19 +102,6 @@ The dataset was used to train the model for distinguishing authentic signatures 
 - Match / No Match Status
 - Signature Preview
 
----
-
-## 🔮 Future Improvements
-
-- Improve accuracy using **larger datasets**
-- Implement **Transfer Learning**
-- Enhance detection for **skilled forgeries**
-- Deploy on **Cloud Platforms**
-- Integrate with **Banking & Financial Systems**
-- Add **Explainable AI (XAI)** for transparent verification
-
----
-
 ## 📌 Use Cases
 
 - 🏦 Banking Authentication
@@ -128,8 +115,4 @@ The dataset was used to train the model for distinguishing authentic signatures 
 ## 👨‍💻 Author
 
 **Aditya Yadav**  
-BSc Data Science | Aspiring Data Scientist & ML Engineer
-
 ---
-
-## ⭐ If you found this project useful, consider giving it a star!
