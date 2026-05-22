@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Comparison Result</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Best Match</h1>
+      {% if best_match %}
+        {% set ref, score = best_match %}
+        <p>Best match is for user {{ ref.user.full_name }} with similarity score {{ "%.4f"|format(score) }}.</p>
+        <p>Reference file: {{ ref.file_path }}</p>
+      {% else %}
+        <p>No reference signatures in the database or no matches found.</p>
+      {% endif %}
+      <a href="/dashboard" class="btn btn-primary">Back to Dashboard</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+.mt-100{
+    margin-top:100px;
+
+}
+
+/* Custom styles */
+.bg-nav {
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #4CA1AF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #3a7a8a;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+
+/* Custom styles */
+.bg-nav {
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CA1AF; /* Primary color for headings */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333; /* Dark text for readability */
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.text-primary {
+    color: #4CA1AF !important; /* Custom primary color */
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
